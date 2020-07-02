@@ -8,15 +8,7 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
-
-                    <a href="{{ route('email') }}" class="btn btn-success">
-                        Click To Send Email
-                    </a>
+                    <h2>Email Sent Successfully.</h2>
                 </div>
             </div>
         </div>
